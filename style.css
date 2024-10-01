@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Work+Sans:wght@100;400&display=swap");
+
+body{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#000000, #ffffff);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    position: absolute;
+    top: 200px;
+    color: #92918f;
+    font-size: 15mm;
+    font-family: Work Sans, sans-serif;
+}
+highlight{
+    color: #000;
+}
+.statistics{
+    position: absolute;
+    top: 340px;
+    font-size: 6mm;
+    color: white;
+    font-family: Rubik, sans-serif;
+}
+.redirects{
+    position: absolute;
+    top: 390px;
+    margin: auto;
+}
+ul.shits li{
+    display: inline;
+    padding: 2px;
+}
+ul.shits li a{
+    padding: 0.3em 1.3em;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 5mm;
+    font-family: Work Sans, sans-serif;
+    padding: .5em 1.5em;
+}
+.shits{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
